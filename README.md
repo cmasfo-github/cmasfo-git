@@ -1,10 +1,6 @@
+
 # cmasfo-git
 
-## Structure
+This is cmasfo's main repository.
 
-* dev-base
-  * dev-ssg
-  * dev-cms
-  * dev-web
-  * dev-app
-* dev-main (merge)
+This contains other repositories as its submodules.
