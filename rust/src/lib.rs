@@ -11,6 +11,7 @@
 
 // there's no tier 3 or 4
 
-mod server;
-mod site;
+mod cli;
+mod gui;
+
 mod util;
