@@ -1,0 +1,12 @@
+[submodule "cmasfo-web"]
+	path = cmasfo-web
+	url = https://github.com/cmasfo-github/cmasfo-web
+[submodule "cmasfo-app"]
+	path = cmasfo-app
+	url = https://github.com/cmasfo-github/cmasfo-app
+[submodule "cmasfo-ssg"]
+	path = cmasfo-ssg
+	url = https://github.com/cmasfo-github/cmasfo-ssg
+[submodule "cmasfo-cms"]
+	path = cmasfo-cms
+	url = https://github.com/cmasfo-github/cmasfo-cms
