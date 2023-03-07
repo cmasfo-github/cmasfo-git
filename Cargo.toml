@@ -9,3 +9,7 @@ members = [
   "main",
   "rust",
 ]
+exclude = [
+  "_code",
+  "_docs"
+]
