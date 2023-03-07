@@ -19,6 +19,6 @@
 [submodule "_archive"]
 	path = _archive
 	url = https://github.com/cmasfo-github/archive
-[submodule ".github/profile"]
-	path = .github/profile
+[submodule ".github/cmasfo"]
+	path = .github/cmasfo
 	url = https://github.com/cmasfo-github/cmasfo-github
