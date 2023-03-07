@@ -10,3 +10,9 @@
 [submodule "cmasfo-cms"]
 	path = cmasfo-cms
 	url = https://github.com/cmasfo-github/cmasfo-cms
+[submodule "main"]
+	path = main
+	url = https://github.com/cmasfo-github/cmasfo-dev
+[submodule "rust"]
+	path = rust
+	url = https://github.com/cmasfo-github/cmasfo-dev
