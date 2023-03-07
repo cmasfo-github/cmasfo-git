@@ -1,15 +1,5 @@
 
 [workspace]
-default-members = ["rust"]
 members = [
-  "cmasfo-app",
-  "cmasfo-cms",
-  "cmasfo-ssg",
-  "cmasfo-web",
-  "main",
-  "rust",
-]
-exclude = [
-  "_code",
-  "_docs"
+  "rust"
 ]
