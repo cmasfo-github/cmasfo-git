@@ -16,3 +16,9 @@
 [submodule "_dev-main"]
 	path = _dev-main
 	url = https://github.com/cmasfo-github/cmasfo-dev
+[submodule "_archive"]
+	path = _archive
+	url = https://github.com/cmasfo-github/archive
+[submodule ".github/profile"]
+	path = .github/profile
+	url = https://github.com/cmasfo-github/cmasfo-github
