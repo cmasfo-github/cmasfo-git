@@ -16,6 +16,3 @@
 [submodule "rust"]
 	path = rust
 	url = https://github.com/cmasfo-github/cmasfo-dev
-[submodule ".github/profile"]
-	path = .github/profile
-	url = https://github.com/cmasfo-github/cmasfo-github
