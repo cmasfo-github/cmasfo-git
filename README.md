@@ -1,2 +1,10 @@
 # cmasfo-git
-The Main Repository
+
+## Structure
+
+* dev-base
+  * dev-ssg
+  * dev-cms
+  * dev-web
+  * dev-app
+* dev-main (merge)
