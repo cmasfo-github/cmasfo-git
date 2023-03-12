@@ -1,4 +1,6 @@
 
+use lib::gui::Gui;
+
 fn main() {
-  println!("Hello, world!");
+  Gui::run();
 }

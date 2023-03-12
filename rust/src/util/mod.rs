@@ -1,42 +1,27 @@
 
-mod get_right;
-pub use get_right::*;
+pub mod cli_io;
+pub use cli_io::*;
 
-mod rand;
+pub mod file_io;
+pub use file_io::*;
 
-// get a line from the user
-pub fn get_line() -> String {
-  let mut line = String::new();
-  std::io::stdin().read_line(&mut line).unwrap();
-  line.trim().to_string()
-}
+pub mod gui_io;
+pub use gui_io::*;
 
-// print without line changing
-#[macro_export]
-macro_rules! printfl {
-  ($($arg:tt)*) => ({
-    print!($($arg)*);
-    use std::io::Write;
-    std::io::stdout().flush().unwrap();
-  });
-}
+pub mod key_io;
+pub use key_io::*;
 
-// flush the buffer (use this with 'print!')
-pub fn flush() {
-  use std::io::Write;
-  std::io::stdout().flush().unwrap();
-}
+pub mod net;
+pub use net::*;
 
-// flush the buffer then change the line
-pub fn flushln() {
-  println!(); // an empty println
-}
+pub mod rand_gen;
+pub use rand_gen::*;
 
-// print a message, then get a line
-#[macro_export]
-macro_rules! msg_line {
-  ($($arg:tt)*) => {{
-    printfl!($($arg)*);
-    get_line()
-  }};
-}
+pub mod string;
+pub use string::*;
+
+pub mod web;
+pub use web::*;
+
+pub mod wrapper;
+pub use wrapper::*;

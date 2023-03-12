@@ -19,3 +19,9 @@ path = "gui.rs"
 
 [dependencies]
 rand = "*"
+crossterm = "*"
+open = "*"
+tokio = { version = "1", features = ["full"] }
+scraper = "*"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+
