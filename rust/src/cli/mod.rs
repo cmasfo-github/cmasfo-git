@@ -102,6 +102,10 @@ impl Cli {
         "urban" => {
           mode_urban();
         }
+        "gui" => {
+          println!("entering gui mode...");
+          super::gui::Gui::run();
+        }
         _ => {
           println!("Unknown command: {}", cmd);
         }

@@ -7,6 +7,9 @@
 #![allow(unused_assignments)]
 #![allow(unused_macros)]
 
+use std::io::prelude::*;
+use std::collections::*;
+
 pub mod cli;
 pub use cli::*;
 

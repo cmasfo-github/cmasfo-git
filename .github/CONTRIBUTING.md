@@ -3,4 +3,4 @@
 
 Currently, there is no template for contribution.
 
-Just be yourself at home when you do some contributions.
+Just feel free about doing some contributions.
